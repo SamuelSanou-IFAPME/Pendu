@@ -1,0 +1,128 @@
+/* Style de base */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+/* Structure de la potence */
+.pendu {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+
+.potence .base {
+    width: 100px;
+    height: 10px;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.potence .pilier {
+    width: 10px;
+    height: 250px;
+    background-color: #333;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.potence .barre {
+    width: 120px;
+    height: 10px;
+    background-color: #333;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-10%);
+}
+
+.potence .corde {
+    width: 2px;
+    height: 40px;
+    background-color: #333;
+    position: absolute;
+    top: 30px;
+    left: 117px;
+    transform: translateX(55px);
+}
+
+/* Dessin du bonhomme */
+.bonhomme {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(55px);
+}
+
+.bonhomme .tete {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #333;
+    border-radius: 50%;
+    position: relative;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+}
+
+.bonhomme .corps {
+    width: 5px;
+    height: 70px;
+    background-color: #333;
+    margin: 0 auto;
+}
+
+.bonhomme .bras {
+    width: 40px;
+    height: 5px;
+    background-color: #333;
+    position: absolute;
+    top: 50px;
+}
+
+.bonhomme .bras-gauche {
+    transform: rotate(-45deg);
+    left: -17px;
+}
+
+.bonhomme .bras-droit {
+    transform: rotate(45deg);
+    right: -17px;
+}
+
+.bonhomme .jambe {
+    width: 40px;
+    height: 5px;
+    background-color: #333;
+    position: absolute;
+    bottom: -15px;
+}
+
+.bonhomme .jambe-gauche {
+    transform: rotate(-45deg);
+    left: -17px;
+}
+
+.bonhomme .jambe-droit {
+    transform: rotate(45deg);
+    right: -17px;
+}
+.mot{
+    width: 300px;
+    height: 30px;
+    background: white;
+    border: solid black 1px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding-left: 5px;
+
+}
